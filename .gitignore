@@ -1,0 +1,60 @@
+# 1. KHU VỰC DỮ LIỆU (TUYỆT ĐỐI KHÔNG ĐẨY LÊN GITHUB)
+# Bỏ qua toàn bộ thư mục data và các file dữ liệu nặng
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.sqlite
+*.db
+
+# 2. KHU VỰC MÔ HÌNH (TRỌNG SỐ ĐÃ HUẤN LUYỆN)
+# Bỏ qua các thư mục và file chứa model rất nặng
+models/
+*.pkl
+*.h5
+*.joblib
+*.pth
+*.pt
+*.onnx
+
+# 3. THÔNG TIN BẢO MẬT & CẤU HÌNH CÁ NHÂN
+# Bỏ qua các file chứa API Keys, mật khẩu Database
+.env
+.env.local
+secret_config.yaml
+credentials.json
+
+# 4. MÔI TRƯỜNG ẢO (VIRTUAL ENVIRONMENTS)
+# Bỏ qua các thư mục chứa thư viện Python tải về máy
+venv/
+env/
+.venv/
+miniforge3/
+anaconda3/
+
+# 5. FILE TẠM/RÁC CỦA PYTHON & JUPYTER NOTEBOOK
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.pytest_cache/
+
+# 6. FILE RÁC CỦA HỆ ĐIỀU HÀNH VÀ IDE
+# Bỏ qua file rác của macOS và Windows
+.DS_Store
+Thumbs.db
+# Bỏ qua thư mục cấu hình của VS Code hoặc PyCharm
+.vscode/
+.idea/
+
+# 7. FILE TÀI LIỆU HỌC TẬP
+
+*.pdf
+*.docx
+
+# 8. Bỏ file log
+*.log
+logs/
+airflow/logs/
