@@ -1,6 +1,4 @@
-# ==========================================
-# PROJECT: BTC trading in range system
-# ==========================================
+financial data streaming & backfill
 
 # 1. .gitignore: data/ *.csv *.xlsx
 
